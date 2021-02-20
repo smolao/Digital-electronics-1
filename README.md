@@ -3,7 +3,7 @@
 ## Labs
 
 
-**Source codes**
+**Source code**
 
 ```vhdl
 architecture dataflow of gates is
