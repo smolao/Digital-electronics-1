@@ -7,7 +7,20 @@
 ## 2nd part De Morgan's laws verification and simulation
 
 ### De Morgan's laws equations
-![Screenshot of De Morgan's laws equations](Images/rovnice.jpg)
+![Screenshot of De Morgan's laws equations](Images/equations.jpg)
+
+### Table of functions values of set variables
+
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |  
+| 0 | 0 | 1 | 1 |   
+| 0 | 1 | 0 | 0 |   
+| 0 | 1 | 1 | 0 |  
+| 1 | 0 | 0 | 0 |   
+| 1 | 0 | 1 | 1 |   
+| 1 | 1 | 0 | 0 |    
+| 1 | 1 | 1 | 0 |
 
 ### Source code from design.vhd of Architecture
 
@@ -24,10 +37,18 @@ begin
 end architecture dataflow;
 ```
 
+### Screenshot of simulated waweforms of f, fnand and fnor, to see if they match
+![Simulace De Morgan's laws](Images/demorgansim.png)
+
+### Link to my EDA playground of De Morgan's laws
+[De Morgan's Laws EDA Playground](https://www.edaplayground.com/x/fih9)
+
+## 3rd part verification of Distributive laws
+
 ### Table of functions values of set variables
 
-| **c** | **b** |**a** | **f(c,b,a)** |
-| :-: | :-: | :-: | :-: |
+| **z** | **y** |**x** | **f(z,y,x)** |
+| :-: | :-: | :-: | :-: | 
 | 0 | 0 | 0 | 1 |  
 | 0 | 0 | 1 | 1 |   
 | 0 | 1 | 0 | 0 |   
@@ -36,14 +57,6 @@ end architecture dataflow;
 | 1 | 0 | 1 | 1 |   
 | 1 | 1 | 0 | 0 |    
 | 1 | 1 | 1 | 0 |
-
-### Screenshot of simulated waweforms of f, fnand and fnor, to see if they match
-![Simulace De Morgan's laws](Images/demorgansim.png)
-
-### Link to my EDA playground of De Morgan's laws
-[De Morgan's Laws EDA Playground](https://www.edaplayground.com/x/fih9)
-
-## 3rd part verification of Distributive laws
 
 ### Source code from design.vhd of Architecture
 ```vhdl
