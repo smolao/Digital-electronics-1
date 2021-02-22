@@ -45,19 +45,6 @@ end architecture dataflow;
 
 ## 3rd part verification of Distributive laws
 
-### Table of functions values of set variables
-
-| **z** | **y** |**x** | **f(z,y,x)** |
-| :-: | :-: | :-: | :-: | 
-| 0 | 0 | 0 | 1 |  
-| 0 | 0 | 1 | 1 |   
-| 0 | 1 | 0 | 0 |   
-| 0 | 1 | 1 | 0 |  
-| 1 | 0 | 0 | 0 |   
-| 1 | 0 | 1 | 1 |   
-| 1 | 1 | 0 | 0 |    
-| 1 | 1 | 1 | 0 |
-
 ### Source code from design.vhd of Architecture
 ```vhdl
 ------------------------------------------------------------------------
