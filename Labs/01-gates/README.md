@@ -37,7 +37,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |    
 | 1 | 1 | 1 | 0 |
 
-### Screenshot of simulated waweforms of f, fnand and fnor
+### Screenshot of simulated waweforms of f, fnand and fnor, to see if they match
 ![Simulace De Morgan's laws](Images/demorgansim.png)
 
 ### Link to my EDA playground of De Morgan's laws
@@ -61,7 +61,7 @@ begin
 end architecture dataflow;
 ```
 
-### Screenshot of simulated time waweforms to see if f1=f2 and f3=f4
+### Screenshot of simulated time waweforms to see if f1=f2 and f3=f4, it does
 ![Screenshot of time waveforms](Images/waweforms2.png)
 
 ### Link to my EDA Playground of Distributed laws
