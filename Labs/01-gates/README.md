@@ -7,6 +7,7 @@
 ## 2nd part De Morgan's laws verification and simulation
 
 ### De Morgan's laws equations
+![Simulation of De Morgan's laws](Images/equations.png)
 
 ### Table of functions values of set variables
 
