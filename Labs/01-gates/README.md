@@ -7,7 +7,6 @@
 ## 2nd part De Morgan's laws verification and simulation
 
 ### De Morgan's laws equations
-![Screenshot of De Morgan's laws equations](Images/equations.jpg)
 
 ### Table of functions values of set variables
 
@@ -38,7 +37,7 @@ end architecture dataflow;
 ```
 
 ### Screenshot of simulated waweforms of f, fnand and fnor, to see if they match
-![Simulace De Morgan's laws](Images/demorgansim.png)
+![Simulation of De Morgan's laws](Images/demorgansim.png)
 
 ### Link to my EDA playground of De Morgan's laws
 [De Morgan's Laws EDA Playground](https://www.edaplayground.com/x/fih9)
