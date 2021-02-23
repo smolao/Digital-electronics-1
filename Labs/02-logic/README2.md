@@ -2,7 +2,7 @@
 
 ## Link to my GitHub repository
 
-[My GitHub 02-logic repository]https://github.com/smolao/Digital-electronics-1/tree/main/Labs/02-logic)
+[My GitHub 02-logic repository](https://github.com/smolao/Digital-electronics-1/tree/main/Labs/02-logic)
 
 ## 1st part - Binary comparator truth table
 
@@ -72,7 +72,7 @@ begin
     end architecture behavioral;
 ```
 
-###testbench.vhd
+### testbench.vhd
 ```vhdl
 ------------------------------------------------------------------------
 -- Entity declaration for testbench
