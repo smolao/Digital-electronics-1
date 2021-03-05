@@ -47,19 +47,3 @@ If you need some testbench file choose menu "File" and there "Add Sources...".
 There choose "Add or create simulation sources" and click "Next".
 
 ![Add sources menu](Images/12add_or_create.png)
-
-Then click "Create File".
-
-![Create File](Images/13create_file.png)
-
-Name the file using the project name and adding tb in the front (tb_vivado_tutorial).
-
-![tb_vivado_tutorial](Images/14tb_vivado.png)
-
-In the "Simulation Sources" double click you testbench file.
-
-![Doubleclick testbench file](Images/15click_tb_vivado.png)
-
-Now you see your project file and testbench file in the "PROJECT MANAGER".
-
-![PROJECT MANAGER](Images/16vivado_and_tb.png)
