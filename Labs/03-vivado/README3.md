@@ -57,4 +57,4 @@ p_stimulus : process
 
 ## 3rd Task - Link to my README file with Vivado Tutorial
 
-[My EDA Playground 4-bit comparator simulation]()
+[Link to my Vivado tutorial](https://github.com/smolao/Digital-electronics-1/blob/main/Labs/03-vivado/README3_tutorial.md)
