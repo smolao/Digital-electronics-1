@@ -1,4 +1,4 @@
-# 2nd task - Combinational logic (02-logic, Ondřej Smola - 217628)
+ss# 2nd task - Combinational logic (02-logic, Ondřej Smola - 217628)
 
 ## Link to my GitHub repository
 
