@@ -181,7 +181,7 @@ end process p_stimulus;
 
 ```
 
-## 3rd
+## 3rd - LED(7:4) indicators
 
 ### Truth table and listing of VHDL code for LEDs(7:4)
 
