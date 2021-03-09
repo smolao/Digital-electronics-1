@@ -167,7 +167,51 @@ end process p_stimulus;
 
 ```vhdl
 
--- Instance (copy) of hex_7seg entity
+entity top is
+    Port 
+    ( 
+    SW  : in STD_LOGIC_VECTOR (4 - 1 downto 0);   -- Input binary data
+    CA  : out STD_LOGIC;                          -- Cathods
+    CB  : out STD_LOGIC;
+    CC  : out STD_LOGIC;
+    CD  : out STD_LOGIC;
+    CE  : out STD_LOGIC;
+    CF  : out STD_LOGIC;
+    CG  : out STD_LOGIC;
+    
+    LED : out STD_LOGIC_VECTOR (8 - 1 downto 0);  -- LED indicators
+    AN  : out STD_LOGIC_VECTOR (8 - 1 downto 0)   -- Common anode signals to individual displays
+    
+    );
+end top;
+
+architecture Behavioral of top is
+
+begin
+
+    entity top is
+    Port 
+    ( 
+    SW  : in STD_LOGIC_VECTOR (4 - 1 downto 0);   -- Input binary data
+    CA  : out STD_LOGIC;                          -- Cathods
+    CB  : out STD_LOGIC;
+    CC  : out STD_LOGIC;
+    CD  : out STD_LOGIC;
+    CE  : out STD_LOGIC;
+    CF  : out STD_LOGIC;
+    CG  : out STD_LOGIC;
+    
+    LED : out STD_LOGIC_VECTOR (8 - 1 downto 0);  -- LED indicators
+    AN  : out STD_LOGIC_VECTOR (8 - 1 downto 0)   -- Common anode signals to individual displays
+    
+    );
+end top;
+
+architecture Behavioral of top is
+
+begin
+
+    -- Instance (copy) of hex_7seg entity
     hex2seg : entity work.hex_7seg
         port map(
             hex_i     => SW,
