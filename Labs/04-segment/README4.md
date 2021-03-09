@@ -50,7 +50,7 @@ Switch je napojen na PIN
 
 ## 2nd - Seven-segment display decoder
 
-### Listing of VHDL architecture
+### Listing of VHDL architecture (hex_7seg.vhd)
 
 ```vhdl
 
@@ -106,7 +106,7 @@ end Behavioral;
 
 ```
 
-### Listing of VHDL stimulus process from testbench
+### Listing of VHDL stimulus process from testbench (tb_hex_7seg.vhd)
 
 ```vhdl
 
