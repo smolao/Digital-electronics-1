@@ -157,6 +157,8 @@ p_stimulus : process
         wait;
 end process p_stimulus;
 
+```
+
 ### Screenshot with simulated waweforms
 
 ![Simulation](Images/simulation.png)
