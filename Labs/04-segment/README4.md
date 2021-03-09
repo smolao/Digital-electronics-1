@@ -4,22 +4,27 @@
 
 ### Nexys A7 board
 
-U13 je napojen na AN7
-K2 na AN6
-T14 na AN5
-P14 na AN4
-J14 na AN3
-T9 na AN2
-J18 na AN1
-J17 na AN0
-T10 na CA
-R10 na CB
-K16 na CC
-K13 na CD
-P15 na CE
-T11 na CF
-L18 na CG
-H15 na DP
+Switch je napojen na PIN
+
+| **Switch** | **Pin** |
+| :-: | :-: |
+| U13 | AN7 |
+| K2  | AN6 |
+| T14 | AN5 |   
+| P14 | AN4 |
+| J14 | AN3 |
+| T9  | AN2 |
+| J18 | AN1 |  
+| J17 | AN0 |
+| T10 | CA |
+| R10 | CB |
+| K16 | CC |  
+| K13 | CD | 
+| P15 | CE |
+| T11 | CF |
+| L18 | CG |  
+| H15 | DP |
+
 
 ### Decoder truth table
 
