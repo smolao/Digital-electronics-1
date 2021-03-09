@@ -1,4 +1,4 @@
-# Lab-4 Seven-segment display decoder (Ondřej Smola - 217628)
+# Lab-4 - Seven-segment display decoder (Ondřej Smola - 217628)
 
 ## 1st - Preparation task
 
