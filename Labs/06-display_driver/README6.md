@@ -2,7 +2,7 @@
 
 ## Link to my GitHub repository
 
-[My GitHub 06-display_driver repository](https)
+[My GitHub 06-display_driver repository](https://github.com/smolao/Digital-electronics-1)
 
 ## 1st part - Timing diagram for displaying value
 
