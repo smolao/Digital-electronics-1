@@ -1,4 +1,4 @@
-# Lab 8 - Traffic light controller
+# Lab 8 - Traffic light controller (Ondřej Smola - 217628)
 
 ## 1st part - Preparation task
 
